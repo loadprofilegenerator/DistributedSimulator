@@ -13,6 +13,14 @@ What it does is the following:
 - The clients will fetch calculation jobs from the server, execute them and send back the resulting directory contents.
 - The server saves the contents to a folder.
 
+# Technology
+
+- C#
+- WPF
+- Windows Only
+- ZeroMQ
+- MessagePack for packing and zipping
+
 # License
 
 MIT
@@ -26,7 +34,8 @@ by implmenting a chunking mechanism, but I never got around to that since 1GB wa
 
 # Plans
 
-- Integratie into the main LPG branch
+- Integrate into the main LPG branch
+- Port to Linux with .NET Core 3
 
 # Acknowledgements
 
