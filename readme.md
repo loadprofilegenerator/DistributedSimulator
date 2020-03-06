@@ -21,7 +21,8 @@ MIT
 
 The code works, but a lot of things are still hardcoded. Needs better configuration files, a Gui for configuration and some work on the Gui in general.
 
-Right now the file size that 
+Right now the total size of the files that can be sent back is limited to less than about 1 GB. More than that seems to frequently mess up ZeroMQ. This could easily be fixed
+by implmenting a chunking mechanism, but I never got around to that since 1GB was plenty for my application.
 
 # Plans
 
