@@ -54,7 +54,7 @@ namespace CommonDistSimTests
             WriteConfig(dstPath, 7, lpgDstDir, "c:\\work\\distSimTmp");
 
             // calc server
-            dstPath = @"\\147.87.96.180\work\DistSimClient";
+            dstPath = @"\\xxx.xxx.xxx.xxx\work\DistSimClient";
             CopyRec(@"V:\Dropbox\DistributedSimulator\DistSimClientWpf\bin\Debug", dstPath, true);
             WriteConfig(dstPath, 30, lpgDstDir, "c:\\work\\distSimTmp");
             return;
